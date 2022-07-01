@@ -1,5 +1,5 @@
 import React from "react";
-import { Div } from "../components/containerStyle/Div.style";
+import { Div } from "../containerStyle/StyleComponent";
 
 export const Footer = () => {
   return (

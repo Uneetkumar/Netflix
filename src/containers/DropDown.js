@@ -1,6 +1,5 @@
 import React from "react";
-import { Div } from "../components/containerStyle/Div.style";
-import { DropDownButton } from "../components/containerStyle/DropDownButton";
+import { Div,DropDownButton } from "../containerStyle/StyleComponent";
 import { GetStarted } from "../constant/GetStarted";
 
 export const DropDown = () => {

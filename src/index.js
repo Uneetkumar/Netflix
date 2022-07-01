@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import { Container } from './components/containerStyle/Container.style';
+import { Container } from './containerStyle/StyleComponent';
 import TopContainer from './containers/TopContainer';
 import { ChildContainer } from './containers/ChildContainer';
 import { DropDown } from './containers/DropDown';
-import '../src/components/containerStyle/home.style.css';
+import './containerStyle/home.style.css';
 import { Footer } from './containers/Footer.style';
 
 

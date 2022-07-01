@@ -1,5 +1,5 @@
 import React from "react";
-import { SubContainer } from "../components/containerStyle/SubContainer.style";
+import { SubContainer } from "../containerStyle/StyleComponent";
 import child from '../assets/child.png';
 import Device from '../assets/device.png';
 import mobile from '../assets/mobile.jpg';

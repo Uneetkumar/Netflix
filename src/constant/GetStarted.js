@@ -1,7 +1,5 @@
 import React from "react";
-import { Input } from "../components/containerStyle/Input.style";
-import { Div } from "../components/containerStyle/Div.style";
-import { PrimaryButton } from "../components/containerStyle/primaryButton.style";
+import { Div,Input,PrimaryButton } from "../containerStyle/StyleComponent";
 
 export const GetStarted= () =>{
     return(

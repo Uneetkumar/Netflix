@@ -1,8 +1,7 @@
 import React from "react";
-import { PrimaryButton } from "../components/containerStyle/primaryButton.style";
 import { GetStarted } from "../constant/GetStarted";
-import { Select } from "../components/containerStyle/Select.style";
-import { Div } from "../components/containerStyle/Div.style";
+import { Div,Select,PrimaryButton } from "../containerStyle/StyleComponent";
+
 
 const TopContainer = () =>{
     return(
