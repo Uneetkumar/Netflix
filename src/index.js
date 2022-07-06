@@ -1,25 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import reportWebVitals from './reportWebVitals';
-import { Container } from './containerStyle/StyleComponent';
-import TopContainer from './containers/TopContainer';
-import { ChildContainer } from './containers/ChildContainer';
-import { DropDown } from './containers/DropDown';
-import './containerStyle/home.style.css';
-import { Footer } from './containers/Footer.style';
-
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import React from "react";
+import ReactDOM from "react-dom/client";
+import reportWebVitals from "./reportWebVitals";
+import TopContainer from "./containers/TopContainer/TopContainer";
+import { ChildContainer } from "./containers/ChildContainer/ChildContainer";
+import Dropbox from "./components/DropDown/Drop";
+import { Footer } from "./containers/Footer/Footer.style";
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <Container height="100vh">
-    <TopContainer/>
-    </Container>
+    <TopContainer />
     <ChildContainer />
-    <DropDown id="DropDown"/>
-    <Footer/>
+    <Dropbox/>
+    <Footer />
   </React.StrictMode>
 );
 
